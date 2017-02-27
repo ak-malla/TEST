@@ -1,0 +1,4 @@
+FirstName	: forioQAnil
+LastName	: Automation
+Email 		: qatest@forio.com
+password	: qatestforio8

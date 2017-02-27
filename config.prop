@@ -1,7 +1,10 @@
 #Type Below the Web Driver Name Firefox/Chrome/Safari
-webdriver=Chrome
-# Please Enter the type of the Operating System WIN/MAC/LINUX
-OS=MAC
-Sucess=username:password
-Failure=username:password
-endPoint=URL to the WebSite
+browser=Chrome
+
+webdriver=driver/chromedriver
+
+endPoint=https://forio.com/epicenter/sign-in
+
+#Please end the credentials in 
+#uName1=Pass1#uName2=Pass2...
+credentials=qatest@forio.com=qatestforio8#qatest@forio.com=qatestforio88
