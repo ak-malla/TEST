@@ -59,12 +59,14 @@ public class QAExercise {
 
 	private void invokeDriver() {
 		if (browser.equalsIgnoreCase("Firefox")) {
+			System.setProperty("webdriver.chrome.driver", webdriver);
 			driver = new FirefoxDriver();
 		} else if (browser.equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", webdriver);
 			driver = new ChromeDriver();
 
 		} else if (browser.equalsIgnoreCase("Safari")) {
+			System.setProperty("webdriver.chrome.driver", webdriver);
 			driver = new SafariDriver();
 		}
 	}

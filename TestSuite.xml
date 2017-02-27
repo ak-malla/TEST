@@ -1,14 +1,11 @@
-<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
-<suite name="test-parameter">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="QATestSuite">
 
 	<test name="QATest">
-
-		<parameter name="config" value="config.prop" />
-
 		<classes>
 			<class name="com.forio.login.QAExercise" />
 		</classes>
-
 	</test>
-
-</suite>
+</suite>  
