@@ -1,0 +1,5 @@
+#Contains all the Reports for the Test Case
+test-output/
+.classpath
+.project
+.settings
